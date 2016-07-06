@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9909F0B71D2D48A2004E11C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9909F0B61D2D48A2004E11C3 /* main.m */; };
 		9909F0BA1D2D48A2004E11C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9909F0B91D2D48A2004E11C3 /* AppDelegate.m */; };
-		9909F0BD1D2D48A2004E11C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9909F0BC1D2D48A2004E11C3 /* ViewController.m */; };
 		9909F0C01D2D48A2004E11C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9909F0BE1D2D48A2004E11C3 /* Main.storyboard */; };
 		9909F0C21D2D48A2004E11C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9909F0C11D2D48A2004E11C3 /* Assets.xcassets */; };
 		9909F0C51D2D48A3004E11C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9909F0C31D2D48A3004E11C3 /* LaunchScreen.storyboard */; };
@@ -20,8 +19,6 @@
 		9909F0B61D2D48A2004E11C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9909F0B81D2D48A2004E11C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9909F0B91D2D48A2004E11C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9909F0BB1D2D48A2004E11C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9909F0BC1D2D48A2004E11C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9909F0BF1D2D48A2004E11C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9909F0C11D2D48A2004E11C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9909F0C41D2D48A3004E11C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +55,9 @@
 		9909F0B41D2D48A2004E11C3 /* 诚诚直播 */ = {
 			isa = PBXGroup;
 			children = (
+				9909F0CC1D2D4CD3004E11C3 /* Classes */,
 				9909F0B81D2D48A2004E11C3 /* AppDelegate.h */,
 				9909F0B91D2D48A2004E11C3 /* AppDelegate.m */,
-				9909F0BB1D2D48A2004E11C3 /* ViewController.h */,
-				9909F0BC1D2D48A2004E11C3 /* ViewController.m */,
 				9909F0BE1D2D48A2004E11C3 /* Main.storyboard */,
 				9909F0C11D2D48A2004E11C3 /* Assets.xcassets */,
 				9909F0C31D2D48A3004E11C3 /* LaunchScreen.storyboard */,
@@ -77,6 +73,133 @@
 				9909F0B61D2D48A2004E11C3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9909F0CC1D2D4CD3004E11C3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9909F0CD1D2D4CD3004E11C3 /* Helper */,
+				9909F0CE1D2D4CD3004E11C3 /* Home */,
+				9909F0D21D2D4CD3004E11C3 /* Main */,
+				9909F0D61D2D4CD3004E11C3 /* Mine */,
+				9909F0DA1D2D4CD3004E11C3 /* Other */,
+				9909F0DB1D2D4CD3004E11C3 /* Vendor */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9909F0CD1D2D4CD3004E11C3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9909F0CE1D2D4CD3004E11C3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9909F0CF1D2D4CD3004E11C3 /* Controller */,
+				9909F0D01D2D4CD3004E11C3 /* Model */,
+				9909F0D11D2D4CD3004E11C3 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9909F0CF1D2D4CD3004E11C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9909F0D01D2D4CD3004E11C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9909F0D11D2D4CD3004E11C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9909F0D21D2D4CD3004E11C3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9909F0D31D2D4CD3004E11C3 /* Controller */,
+				9909F0D41D2D4CD3004E11C3 /* Model */,
+				9909F0D51D2D4CD3004E11C3 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9909F0D31D2D4CD3004E11C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9909F0D41D2D4CD3004E11C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9909F0D51D2D4CD3004E11C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9909F0D61D2D4CD3004E11C3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				9909F0D71D2D4CD3004E11C3 /* Controller */,
+				9909F0D81D2D4CD3004E11C3 /* Model */,
+				9909F0D91D2D4CD3004E11C3 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9909F0D71D2D4CD3004E11C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9909F0D81D2D4CD3004E11C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9909F0D91D2D4CD3004E11C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9909F0DA1D2D4CD3004E11C3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9909F0DB1D2D4CD3004E11C3 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9909F0BD1D2D48A2004E11C3 /* ViewController.m in Sources */,
 				9909F0BA1D2D48A2004E11C3 /* AppDelegate.m in Sources */,
 				9909F0B71D2D48A2004E11C3 /* main.m in Sources */,
 			);
